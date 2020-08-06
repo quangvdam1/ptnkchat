@@ -69,13 +69,13 @@ export default {
   GRAPH_API: parseEnvString('GRAPH_API') || 'https://graph.facebook.com/v7.0',
 
   // App secret
-  APP_SECRET: parseEnvString('APP_SECRET') || '',
+  APP_SECRET: parseEnvString('APP_SECRET') || '1ac3c6a77ed3a204daaa70ea05ac7fa9',
 
   // Page access token
-  PAGE_ACCESS_TOKEN: parseEnvString('PAGE_ACCESS_TOKEN') || '',
+  PAGE_ACCESS_TOKEN: parseEnvString('PAGE_ACCESS_TOKEN') || 'EAAlEsZBr9g4IBAHZBL6iSUMEXr5Dvespwvr29zhoUkwJrQXqRstdCnurXbmjKlDdbkTojlcnjtusZCoFVfejGgDg376g60syBQztk2u17ouj3gtGKqkZAnlG8rMlZBBkuqIQO6nRhS1gSWM5ZCI2JaJrmS0JBM6x9PIZCZAtXdXnTDZBtQ9yBGXM7OqJ8bJVl3S0ZD',
 
   // Page verify token
-  PAGE_VERIFY_TOKEN: parseEnvString('PAGE_VERIFY_TOKEN') || '',
+  PAGE_VERIFY_TOKEN: parseEnvString('PAGE_VERIFY_TOKEN') || 'Anhquang98',
 
   // Maximum length of text message
   MAX_MESSAGE_LENGTH: parseEnvNumber('MAX_MESSAGE_LENGTH') || 2000,
