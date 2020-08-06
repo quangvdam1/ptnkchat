@@ -72,7 +72,7 @@ export default {
   APP_SECRET: parseEnvString('APP_SECRET') || '1ac3c6a77ed3a204daaa70ea05ac7fa9',
 
   // Page access token
-  PAGE_ACCESS_TOKEN: parseEnvString('PAGE_ACCESS_TOKEN') || 'EAAlEsZBr9g4IBAHZBL6iSUMEXr5Dvespwvr29zhoUkwJrQXqRstdCnurXbmjKlDdbkTojlcnjtusZCoFVfejGgDg376g60syBQztk2u17ouj3gtGKqkZAnlG8rMlZBBkuqIQO6nRhS1gSWM5ZCI2JaJrmS0JBM6x9PIZCZAtXdXnTDZBtQ9yBGXM7OqJ8bJVl3S0ZD',
+  PAGE_ACCESS_TOKEN: parseEnvString('PAGE_ACCESS_TOKEN') || 'EAAlEsZBr9g4IBAKn4RZAo9VZCOS6sVXhFu1eqhTvnef8ZBJpEKNv45VZCDfXshy41FwOLHga3UAMOGwxM2n74SKxhYUkAhF59DP1jsKW42OfIU01y4VojnzBKp8leHdV8KU14FqyDGOFTHjsc3rwC4nrfeRRanKdeaKucu1XBq3VKXCeUaBsUXobrKexVoKYZD',
 
   // Page verify token
   PAGE_VERIFY_TOKEN: parseEnvString('PAGE_VERIFY_TOKEN') || 'Anhquang98',
@@ -81,13 +81,13 @@ export default {
   MAX_MESSAGE_LENGTH: parseEnvNumber('MAX_MESSAGE_LENGTH') || 2000,
 
   // App name (must be the same on Heroku)
-  APP_NAME: parseEnvString('APP_NAME') || 'ptnkchat',
+  APP_NAME: parseEnvString('APP_NAME') || 'svhn-chatbot',
 
   // Heroku API key
   HEROKU_API_KEY: parseEnvString('HEROKU_API_KEY') || 'f7595a30-17ed-431c-8d56-948b9c9256d5',
 
   // URI to MongoDB server
-  MONGO_URI: parseEnvString('MONGO_URI') || 'mongodb+srv://quangvdam:<password>@cluster0.cddnt.mongodb.net/<dbname>?retryWrites=true&w=majority',
+  MONGO_URI: parseEnvString('MONGO_URI') || 'mongodb+srv://quangvdam:<Anhquang98>@cluster0.cddnt.mongodb.net/<dbname>?retryWrites=true&w=majority',
 
   // Logging stuffs
   HAS_POST_LOG: parseEnvBoolean('HAS_POST_LOG') || false,
