@@ -84,10 +84,10 @@ export default {
   APP_NAME: parseEnvString('APP_NAME') || 'ptnkchat',
 
   // Heroku API key
-  HEROKU_API_KEY: parseEnvString('HEROKU_API_KEY') || '',
+  HEROKU_API_KEY: parseEnvString('HEROKU_API_KEY') || 'f7595a30-17ed-431c-8d56-948b9c9256d5',
 
   // URI to MongoDB server
-  MONGO_URI: parseEnvString('MONGO_URI') || '',
+  MONGO_URI: parseEnvString('MONGO_URI') || 'mongodb+srv://quangvdam:<password>@cluster0.cddnt.mongodb.net/<dbname>?retryWrites=true&w=majority',
 
   // Logging stuffs
   HAS_POST_LOG: parseEnvBoolean('HAS_POST_LOG') || false,
@@ -108,7 +108,7 @@ export default {
   MAX_WAIT_TIME_MINUTES: parseEnvNumber('MAX_WAIT_TIME_MINUTES') || 60,
 
   // Password to log into admin page
-  ADMIN_PASSWORD: parseEnvString('ADMIN_PASSWORD') || '',
+  ADMIN_PASSWORD: parseEnvString('ADMIN_PASSWORD') || 'Anhquang98',
 
   // Maximum amount of time of a session
   // 0 for unlimited
