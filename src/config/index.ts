@@ -87,7 +87,7 @@ export default {
   HEROKU_API_KEY: parseEnvString('HEROKU_API_KEY') || 'f7595a30-17ed-431c-8d56-948b9c9256d5',
 
   // URI to MongoDB server
-  MONGO_URI: parseEnvString('MONGO_URI') || 'mongodb+srv://quangvdam:<Anhquang98>@cluster0.cddnt.mongodb.net/<dbname>?retryWrites=true&w=majority',
+  MONGO_URI: parseEnvString('MONGO_URI') || 'mongodb+srv://Anhquang98:<Anhquang98>@cluster0.k2qil.mongodb.net/<dbname>?retryWrites=true&w=majority',
 
   // Logging stuffs
   HAS_POST_LOG: parseEnvBoolean('HAS_POST_LOG') || false,
